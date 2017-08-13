@@ -1,0 +1,17 @@
+a@loquesea.com,Juan,,1
+b@loquesea.com,Juan,Perez,1
+c@loquesea.com,Rodrigo,Perez,1
+d@loquesea.com,Juan,Perz,1
+e@loquesea.com,Juan,Perez,2
+f@loquesea.com,Juan,Perez,2
+g@loquesea.com,Juan,,2
+h@loquesea.com,Juan,Perez,3
+i@loquesea.com,Julián,Perez,3
+j@loquesea.com,Roberto,Perez,3
+k@loquesea.com,Juan,Perez,3
+l@loquesea.com,Juan,,1
+m@loquesea.com,Juan,Perez,3
+n@loquesea.com,Pedro,Perez,1
+o@loquesea.com,Andrés,Perez,3
+p@loquesea.com,Juan,,1
+q@loquesea.com,Juan,Perez,3
