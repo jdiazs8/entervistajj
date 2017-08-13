@@ -1,16 +1,17 @@
 
 <?php
   include_once('../controladores/ArchivoControlador.php');
-  $controlador = new ArchivoControlador();
+  $controladorA = new ArchivoControlador();
+  $controladorM = new MostrarControlador();
 
   if(isset($_POST['enviar'])) {
     if(end(explode(".", $_FILES['archivo']['name'])) != 'txt'){
       $mensaje = "El tipo de archivo no corresponde.";
     }else {
-      $resultado = $controlador->crear($_FILES['archivo']);
+      $resultado = $controladorA->crear($_FILES['archivo']);
 
       if($resultado) {
-        $controlador->index();
+        $controladorA->index();
         //colocar aqui el redireccionamiento y enviar la variable por get
         echo mysqli_num_rows($resultado);
       }else {

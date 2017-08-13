@@ -41,12 +41,8 @@
     }
 
     public function listar() {
-        $sql = "SELECT * jj";
-        $resultado =$this->con->consultaRetorno($sql);
-
-        if(mysqli_num_rows($resultado)){
-          return echo "trae los datos";
-        }
+      $sql = "SELECT * FROM usuarios";
+      $resultado = $this->con->consultaRetorno($sql);
     }
   }
 ?>
